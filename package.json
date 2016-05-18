@@ -1,0 +1,23 @@
+{
+  "name": "steal-canjs-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.stache!done-autorender",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "system": {
+    "npmAlgorithm": "flat",
+    "configDependencies": [
+      "live-reload"
+    ]
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "can": "^2.3.23",
+    "done-autorender": "^0.8.0",
+    "jquery": "^2.2.3",
+    "steal": "^0.16.12"
+  }
+}
