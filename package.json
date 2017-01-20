@@ -11,8 +11,9 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "can": "^2.3.23",
-    "jquery": "^2.2.3",
-    "steal": "^0.16.12"
+    "can": "^3.2.2",
+    "jquery": "^3.1.1",
+    "steal": "^0.16.12",
+    "steal-stache": "^3.0.5"
   }
 }
