@@ -1,9 +1,11 @@
 import $ from 'jquery';
-import can from 'can';
+import Map from 'can/map/';
+import route from 'can/route/';
 import template from './index.stache!';
+import 'can/map/define/';
 import './styles.less!';
 
-const AppViewModel = can.Map.extend({
+const AppViewModel = Map.extend({
   define: {
 
     /**
@@ -26,5 +28,5 @@ const AppViewModel = can.Map.extend({
 var data = new AppViewModel({});
 $('body').append(template(data));
 
-can.route(':page', {page: 'home'});
-can.route.ready();
+route('{page}', {page: 'home'});
+route.ready();

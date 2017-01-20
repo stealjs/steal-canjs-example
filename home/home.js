@@ -1,14 +1,16 @@
-import can from 'can';
+import Component from 'can/component/';
+import Map from 'can/map/';
 import template from './home.stache';
+import 'can/map/define/';
 
-can.Component.extend({
+Component.extend({
   tag: 'home-page',
-  template,
-  viewModel: {
+  view: template,
+  viewModel: Map.extend({
     define: {
       greeting: {
         value: 'Welcome to your new CanJS App!'
       }
     }
-  }
+  })
 });
