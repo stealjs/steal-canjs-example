@@ -1,5 +1,7 @@
 import $ from 'jquery';
 import can from 'can';
+import template from './index.stache!';
+import './styles.less!';
 
 const AppViewModel = can.Map.extend({
   define: {
@@ -17,15 +19,12 @@ const AppViewModel = can.Map.extend({
      */
     page: {
       serialize: true
-    },
-
-    title: {
-      value: 'StealJS - CanJS Example App'
     }
   }
 });
 
+var data = new AppViewModel({});
+$('body').append(template(data));
+
 can.route(':page', {page: 'home'});
 can.route.ready();
-
-export default AppViewModel;

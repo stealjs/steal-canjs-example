@@ -1,19 +1,5 @@
-<html>
-<head>
-  <title>{{title}}</title>
-</head>
-<body>
-  <can-import from="styles.less"/>
-  <can-import from="app" as="viewModel"/>
-
-  {{#eq page "home"}}
-
-    <can-import from="home/">
-      {{#if isResolved}}
-        <home-page></home-page>
-      {{/if}}
-    </can-import>
-
-  {{/eq}}
-</body>
-</html>
+<can-import from="home/">
+  {{#if isResolved}}
+    <home-page></home-page>
+  {{/if}}
+</can-import>
