@@ -5,15 +5,22 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "system": {
-    "npmAlgorithm": "flat"
+  "steal": {
+    "npmAlgorithm": "flat",
+    "plugins": [
+      "steal-less",
+      "steal-stache"
+    ]
   },
   "author": "",
   "license": "MIT",
   "dependencies": {
     "can": "^3.2.2",
     "jquery": "^3.1.1",
-    "steal": "^0.16.12",
+    "steal": "^1.0.11",
     "steal-stache": "^3.0.5"
+  },
+  "devDependencies": {
+    "steal-less": "^1.1.0"
   }
 }
