@@ -6,7 +6,6 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "steal": {
-    "npmAlgorithm": "flat",
     "plugins": [
       "steal-less",
       "steal-stache"
