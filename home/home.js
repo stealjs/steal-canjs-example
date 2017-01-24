@@ -1,7 +1,7 @@
-import Component from 'can/component/';
-import Map from 'can/map/';
+import Component from 'can-component';
+import Map from 'can-map';
 import template from './home.stache';
-import 'can/map/define/';
+import 'can-map-define';
 
 Component.extend({
   tag: 'home-page',

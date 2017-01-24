@@ -1,8 +1,8 @@
 import $ from 'jquery';
-import Map from 'can/map/';
-import route from 'can/route/';
+import Map from 'can-map';
+import route from 'can-route';
 import template from './index.stache!';
-import 'can/map/define/';
+import 'can-map-define';
 import './styles.less!';
 
 const AppViewModel = Map.extend({
