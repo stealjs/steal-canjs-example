@@ -5,4 +5,4 @@
 3. Start an `http-server` in the root directory.
 4. Open in your browser.
 
-![Steal-CanJS Example Screenshot](https://raw.githubusercontent.com/stealjs/steal-canjs-example/master/screenshot.jpg "Simple Steal-CanJS Example App")
+![Steal-CanJS Example Screenshot](screenshot.png?raw=true "Simple Steal-CanJS Example App")
