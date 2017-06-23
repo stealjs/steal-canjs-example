@@ -20,7 +20,7 @@
     "can-route": "^3.0.6",
     "jquery": "^3.1.1",
     "steal": "^1.0.11",
-    "steal-stache": "^3.0.5"
+    "steal-stache": "^3.1.0"
   },
   "devDependencies": {
     "steal-less": "^1.1.0"
