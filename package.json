@@ -14,7 +14,7 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "can-component": "^3.0.5",
+    "can-component": "^4.2.0",
     "can-map": "^3.0.4",
     "can-map-define": "^3.0.3",
     "can-route": "^3.0.6",
