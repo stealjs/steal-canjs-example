@@ -13,7 +13,7 @@
 <h2>{{greeting}}</h2>
 
 <ul>
-  <li>Learn about CanJS in the <a href="https://canjs.com/guides/Tutorial.html">Getting Started Tutorial</a></li>
-  <li>For quick help, chat with us in <a href="https://gitter.im/canjs/canjs">Gitter</a></li>
-  <li>For longer questions, use the <a href="http://forums.donejs.com/c/canjs">DoneJS Forums</a></li>
+  <li>Learn about CanJS from its <a href="https://canjs.com/doc/guides.html">guides</a></li>
+  <li>For quick help, chat with us on <a href="https://www.bitovi.com/community/slack">Slack</a></li>
+  <li>For longer questions, use the <a href="https://forums.bitovi.com/c/canjs">Bitovi Forums</a></li>
 </ul>
